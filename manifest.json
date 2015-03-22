@@ -1,5 +1,5 @@
 {
-  "name": "Clarin avoid ask register",
+  "name": "Clarin no-register",
   "description": "My first Chrome App.",
   "version": "0.1",
   "manifest_version": 2,

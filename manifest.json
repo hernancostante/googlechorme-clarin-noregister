@@ -1,10 +1,10 @@
 {
   "name": "Clarin no-register",
-  "description": "My first Chrome App.",
+  "description": "My first Chrome App :) ",
   "version": "0.1",
   "manifest_version": 2,
   "content_scripts":[{
-    "matches":["http://www.clarin.com/*"],
+    "matches":["http://*.clarin.com/*"],
     "js":["background.js"]
     }],
   "icons": { "16": "icon.png"}

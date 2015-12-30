@@ -1,13 +1,17 @@
 {
   "name": "Clarin no-register",
   "description": "My first Chrome App :) ",
-  "version": "0.2",
+  "version": "0.3",
   "manifest_version": 2,
-  "content_scripts":[{
-    "matches":["*://*.clarin.com/*"],
-    "js":["background.js"]},
+  "content_scripts" : [
     {
-    "matches":["*://*.lanacion.com.ar/*"],
-    "js":["backgroud.js"]}],
+     "matches" : ["*://*.clarin.com/*"],
+     "js" : ["clarin.js"]
+    },
+    {
+     "matches" : ["*://*.lanacion.com.ar/*"],
+     "js" : ["lanacion.js"]
+    }
+   ],
   "icons": { "16": "icon.png"}
 }
